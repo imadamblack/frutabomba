@@ -32,12 +32,11 @@ input[type=radio] + label, input[type=checkbox] + label {
 }
 
 input[type=radio]:checked + label, input[type=checkbox]:checked + label {
-  @apply bg-brand-1 text-white border-2 border-brand-5;
+  @apply bg-brand-2 text-white border-2 border-brand-5;
 }
 
 select {
   appearance: none;
-  border-radius: 0;
 
   &::-ms-expand {
     display: none;
