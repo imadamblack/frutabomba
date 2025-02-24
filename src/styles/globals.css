@@ -437,7 +437,7 @@ button-secondary,
 }
 button-secondary,
 .button-secondary {
-  @apply bg-brand-2 border-2 border-brand-2 text-inherit;
+  @apply bg-brand-2 border-2 border-white text-inherit;
 }
 .text-block {
   @apply xl:w-1/2;

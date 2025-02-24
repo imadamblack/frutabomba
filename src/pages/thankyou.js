@@ -26,14 +26,10 @@ export default function ThankYou() {
               </a>
               <a
                 className="ft-2 py-3 px-6 rounded-lg items-center text-brand-1 cursor-pointer"
-                href={`tel:${info.whatsapp.value}`}
+                href="https://www.amazon.com.mx/dp/B0D79VFV1K"
                 target="_blank"
-                onClick={() => fbEvent(
-                  'Contact',
-                  {phone: '', externalID: '', email: ''},
-                )}
               >
-                O llámanos por <span className="font-semibold">teléfono</span> ›
+                O pide una muestra en <span className="font-semibold">Amazon</span> ›
               </a>
             </div>
           </div>

@@ -55,7 +55,7 @@ button,
   hover:bg-brand-3 hover:text-white;
   &-secondary {
     @extend .button;
-    @apply bg-brand-2 border-2 border-brand-2 text-inherit;
+    @apply bg-brand-2 border-2 border-white text-inherit;
   }
   &[type] {
     @extend .button;

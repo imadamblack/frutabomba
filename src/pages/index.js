@@ -74,26 +74,17 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 gap-8 mt-12">
-            {/*<Link href="https://www.amazon.com.mx/dp/B0D79VFV1K">*/}
-            {/*  <a*/}
-            {/*    // onClick={() => setLastClick('hero')}*/}
-            {/*    className="button-secondary !w-full"*/}
-            {/*  >Solo quiero probar una</a>*/}
-            {/*</Link>*/}
-
             <a
               href="#contact"
               className="button !w-full"
             >Quiero vender en mi negocio</a>
+            <a
+              href="https://www.amazon.com.mx/dp/B0D79VFV1K"
+              className="button-secondary !w-full"
+              target="_blank"
+            >O compra en Amazon para que pruebes</a>
           </div>
         </div>
-        {/*<div className="absolute flex flex-col justify-center items-center text-white bottom-8 mt-8 md:mt-20 z-10">*/}
-        {/*  <p className="ft-1 text-white">Sigue leyendo</p>*/}
-        {/*  <div className="animate-bounce">*/}
-        {/*    <div className="ft-3 material-icons mx-auto">expand_more</div>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
-        {/*<div className="w-full h-full absolute bg-black/30 -z-1"/>*/}
       </section>
 
       <section className="bg-brand-2 py-16">
@@ -104,11 +95,14 @@ export default function Home() {
             <p>— Fernando T.</p>
           </div>
           <div className="p-12 rounded-2xl bg-white">
-            <p className="ft-2 text-brand-2 font-semibold ">”Es la tercera vez que la pido, neta está deliciosa. Se las súper recomiendo, queda super bien con las tablitas de quesos. Nunca puede faltar en mi alacena!”</p>
+            <p className="ft-2 text-brand-2 font-semibold ">”Es la tercera vez que la pido, neta está deliciosa. Se las
+              súper recomiendo, queda super bien con las tablitas de quesos. Nunca puede faltar en mi alacena!”</p>
             <p>— Carla P.</p>
           </div>
           <div className="p-12 rounded-2xl bg-white">
-            <p className="ft-2 text-brand-2 font-semibold ">“Un amigo la llevó a mi casa para un desayuno y desde entonces es mi jalea favorita. Un panecito tostado con jalea de papaya y un cafecito para iniciar el día. Súper recomendable”</p>
+            <p className="ft-2 text-brand-2 font-semibold ">“Un amigo la llevó a mi casa para un desayuno y desde
+              entonces es mi jalea favorita. Un panecito tostado con jalea de papaya y un cafecito para iniciar el día.
+              Súper recomendable”</p>
             <p>— Ricardo S.</p>
           </div>
         </div>
@@ -128,7 +122,7 @@ export default function Home() {
 
       <section id="contact" className="bg-brand-3">
         <div className="container my-16">
-        <div className="mx-auto py-16 md:w-1/2">
+          <div className="mx-auto py-16 md:w-1/2">
             <h2 className="font-bold mb-12">Regálanos un par de datos para compartirte los beneficios de
               distribuir FrutaBomba</h2>
             <OptInForm/>
